@@ -1,0 +1,11 @@
+<web-app>
+
+<servlet>
+<servlet-name>dbase</servlet-name>
+<servlet-class>logincontroller</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>dbase</servlet-name>
+ <url-pattern>/database</url-pattern>
+ </servlet-mapping>
+</web-app>
